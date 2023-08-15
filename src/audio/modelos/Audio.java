@@ -8,7 +8,7 @@ public class Audio {
     private int duracaoSegundos;
     private String genero;
 
-    public void curte(){ this.totalCurtidas++; }
+    public void curtir(){ this.totalCurtidas++; }
     public void reproduzir(){
         System.out.println("Reproduzindo " + titulo);
         this.totalReproducoes++;
